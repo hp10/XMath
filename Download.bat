@@ -1,6 +1,4 @@
 @echo off
-md C:Users/%username%/XMathFiles
-cd C:Users/%username%/XMathFiles
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/hp10/XMath/main/Terminal.bat -Outfile Terminal.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/hp10/XMath/main/XMathA.bat -Outfile XMathA.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/hp10/XMath/main/XMathD.bat -Outfile XMathD.bat"
